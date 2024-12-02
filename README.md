@@ -35,3 +35,50 @@ Linux command
 ## Ek Notlar
 - **Mavi renkte gözükenler klasördür.**
 - Bir klasörü başka bir klasöre kopyalamak için: `cp -r`.
+
+
+
+
+# Tilda (~) home/seyma dizinini ifade eder.
+# Bulunduğunuz klasörü yazdırma
+pwd
+
+# Klasör içeriğini listeleme
+ls
+
+# Klasör değiştirme
+cd Desktop      # Desktop klasörüne geçer.
+cd ..           # Bir üst klasöre çıkar.
+
+# Komut ekranını temizleme
+clear
+
+# Dizin otomatik tamamlama
+cd Dow[TAB]
+
+# Yukarı ok tuşu ile geçmiş komutları görüntüleme
+
+# Dosya işlemleri
+touch linux.txt                               # Yeni bir dosya oluşturma
+echo "iyiki linux öğreniyorum" > linux.txt    # Dosyaya metin yazma
+cat linux.txt                                 # Dosya içeriğini görme
+echo "iyi ki linux öğreniyorum ne güzel" >> linux.txt  # Dosyanın sonuna metin ekleme
+
+# Listeleme çıktısını dosyaya kaydetme
+ls > sonyazidosyasi.txt
+cat sonyazidosyasi.txt                        # Dosya içeriğini görüntüleme
+
+# Dosya silme
+rm linux.txt
+
+# Kopyalama ve taşıma işlemleri
+cp linux.txt seyma                            # Kopyalama
+mv linux.txt seyma                            # Taşıma
+mv linux2.txt linux3.txt                      # Yeniden adlandırma
+
+# Klasör oluşturma ve silme
+mkdir yeniklasor                              # Yeni klasör oluşturma
+rm -r yeniklasor/                             # Klasörü silme
+
+# Klasörleri kopyalama
+cp -r klasor1 klasor2                         # Klasörleri kopyalama
